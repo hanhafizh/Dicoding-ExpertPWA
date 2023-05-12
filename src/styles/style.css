@@ -161,104 +161,120 @@
   display: flex;
   flex-direction: column;
   padding: 10px 32px 0 32px;
-}
+  }
 
-h2.restaurant_name{
-  font-size: 32px;
-  color: #db0000;
-  justify-content: center;
-  display: flex;
-  margin: 20px 20px;
-}
+  h2.restaurant_name{
+    font-size: 32px;
+    color: #db0000;
+    justify-content: center;
+    display: flex;
+    margin: 20px 20px;
+  }
 
-#restaurant img.restaurant_image{
-  width: 100%;
-  border-radius: 10px;
-}
+  #restaurant img.restaurant_image{
+    width: 100%;
+    border-radius: 10px;
+  }
 
-.restaurant_info h3{
-  font-size: 36px;
-  padding: 15px 0;
-  color: #db0000;
-}
+  .restaurant_info h3{
+    font-size: 36px;
+    padding: 15px 0;
+    color: #db0000;
+  }
 
-.restaurant_info h4, p {
-  font-size: 18px;
-  padding-left: 0;
-}
+  .restaurant_info h4, p {
+    font-size: 18px;
+    padding-left: 0;
+  }
 
-.restaurant_info h4 {
-  padding-top: 20px;
-  color: #db0000;
-}
+  .restaurant_info h4 {
+    padding-top: 20px;
+    color: #db0000;
+  }
 
-.restaurant_info #menu{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  padding-top: 20px;
-}
+  .restaurant_info #menu{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding-top: 20px;
+  }
 
-.restaurant_info #menu .food{
-  display: flex;
-  flex-direction: column;
-  background-color: #db0000;
-  border-radius: 10px;
-  color:#fff;
-}
+  .restaurant_info #menu .food{
+    display: flex;
+    flex-direction: column;
+    background-color: #db0000;
+    border-radius: 10px;
+    color:#fff;
+  }
 
-.restaurant_info #menu h4{
-  font-size: 28px;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  color: #ffffff;
-}
+  .restaurant_info #menu h4{
+    font-size: 28px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #ffffff;
+  }
 
-.restaurant_info #menu p{
-  padding: 32px 32px;
-}
+  .restaurant_info #menu p{
+    padding: 32px 32px;
+  }
 
-.restaurant_info #menu .drink{
-  display: flex;
-  flex-direction: column;
-  background-color: #db0000;
-  border-radius: 10px;
-  color:#fff;
-}
+  .restaurant_info #menu .drink{
+    display: flex;
+    flex-direction: column;
+    background-color: #db0000;
+    border-radius: 10px;
+    color:#fff;
+  }
 
-.restaurant_info .review-list{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-}
+  .restaurant_info .review-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
 
-.restaurant_info .review-item{
-  padding: 20px 32px;
-  background-color: #db0000;
-  border-radius: 10px;
-  color:#fff;
-}
+  .restaurant_info .review-item{
+    padding: 20px 32px;
+    background-color: #db0000;
+    border-radius: 10px;
+    color:#fff;
+  }
 
-.restaurant_info .review-item_bold{
-  font-weight: bold;
-}
+  .restaurant_info .review-item_bold{
+    font-weight: bold;
+  }
 
-.restaurant_info .review h4{
-  margin-top: 32px;
-}
+  .restaurant_info .review h4{
+    margin-top: 32px;
+  }
 
-.address{
-  display: flex;
-  flex-direction: column;
-}
+  .address{
+    display: flex;
+    flex-direction: column;
+  }
 
 
-.content_like {
-  display: flex;
-  justify-content: space-between;
-}
 
+/* Like */
+
+  .like {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #db0000;
+    
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    border-radius: 50%;
+    border: 0;
+    
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+  }
 
   /*
 	Footer
